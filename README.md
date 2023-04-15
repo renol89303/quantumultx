@@ -1,1 +1,1 @@
-# quantumultx
+自用，学习去广告
