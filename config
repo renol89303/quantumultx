@@ -1,0 +1,4 @@
+#饿了么开屏广告
+hostname = cube.elemecdn.com, nr-op.elemecdn.com
+
+^https:\/\/(nr-op|cube)\.elemecdn\.com\/.+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{4,},h_\d{4,}\/($|format,webp\/$) url reject
