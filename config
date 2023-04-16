@@ -1,4 +1,4 @@
-hostname = tigisoftware.com, cube.elemecdn.com, nr-op.elemecdn.com, api.revenuecat.com, acs.m.taobao.com
+hostname = tigisoftware.com, cube.elemecdn.com, nr-op.elemecdn.com, api.revenuecat.com
 
 #filza重定向本地
 tigisoftware.com url 307 127.0.0.1
@@ -11,6 +11,3 @@ tigisoftware.com url 307 127.0.0.1
 //破解
 #图图记账
 ^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ttjz.js
-
-# > alibaba
-^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject
