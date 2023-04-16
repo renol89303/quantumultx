@@ -1,13 +1,17 @@
-hostname = tigisoftware.com, cube.elemecdn.com, nr-op.elemecdn.com, api.revenuecat.com
+hostname = tigisoftware.com, cube.elemecdn.com, nr-op.elemecdn.com, api.revenuecat.com, appv2.hotapi.cn
 
 #filza重定向本地
 tigisoftware.com url 307 127.0.0.1
 
 
-//去广告
-#饿了么开屏广告
+// 去广告
+# 饿了么开屏广告
 ^https:\/\/(nr-op|cube)\.elemecdn\.com\/.+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{4,},h_\d{4,}\/($|format,webp\/$) url reject
 
-//破解
-#图图记账
+#2tong
+^https://appv2\.hotapi\.cn /ios/Advert url-and-header reject-img
+
+
+// 破解
+# 图图记账
 ^https:\/\/api\.revenuecat\.com\/v1\/subscribers.+ url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/ttjz.js
