@@ -9,7 +9,7 @@ tigisoftware.com url 307 127.0.0.1
 ^https:\/\/(nr-op|cube)\.elemecdn\.com\/.+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{4,},h_\d{4,}\/($|format,webp\/$) url reject
 
 #2tong
-^https://appv2\.hotapi\.cn/ios/Advert url-and-header reject-img
+^https://appv2\.hotapi\.cn/ios/Advert url reject-img
 
 
 // 破解
