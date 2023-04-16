@@ -1,4 +1,4 @@
-hostname = tigisoftware.com, cube.elemecdn.com, nr-op.elemecdn.com, api.revenuecat.com
+hostname = tigisoftware.com, cube.elemecdn.com, nr-op.elemecdn.com, api.revenuecat.com, acs.m.taobao.com
 
 #filza重定向本地
 tigisoftware.com url 307 127.0.0.1
