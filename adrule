@@ -1,4 +1,4 @@
-hostname = tigisoftware.com, cube.elemecdn.com, nr-op.elemecdn.com, api.revenuecat.com, appv2.hotapi.cn, api.wfdata.club
+hostname = tigisoftware.com, cube.elemecdn.com, nr-op.elemecdn.com, api.revenuecat.com, appv2.hotapi.cn, api.wfdata.club, acs.m.taobao.com
 
 # filza重定向本地
 tigisoftware.com url 307 127.0.0.1
@@ -7,13 +7,12 @@ tigisoftware.com url 307 127.0.0.1
 // 去广告
 # 饿了么开屏广告
 ^https:\/\/(nr-op|cube)\.elemecdn\.com\/.+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{4,},h_\d{4,}\/($|format,webp\/$) url reject
-
 # 2tong
 https://appv2\.hotapi\.cn/ios/Advert url reject-img
-
 # 威锋
 https://api\.wfdata\.club/v2/yesfeng url reject
-
+# alibaba
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject
 
 // 破解
 # 图图记账
