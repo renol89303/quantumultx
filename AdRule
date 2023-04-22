@@ -14,7 +14,7 @@ https://api\.wfdata\.club/v2/yesfeng url reject
 # alibaba
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject
 # 懂车帝
-https://api\.dcarapi\.com/motor/ad url reject
+https://api\.dcarapi\.com/motor/ad url
 
 
 // 破解
